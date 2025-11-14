@@ -10,13 +10,13 @@ const Header = () => {
         {/*Logo*/}
         <Link href="/">
           {/* Desktop */}
-          <h1 className="hidden xl:block text-2xl font-semibold">
+          <h1 className=" text-2xl font-semibold">
             nusantara digital <span className="text-accent">integrator</span>
           </h1>
           {/* Mobile */}
-          <h1 className="xl:hidden text-2xl font-semibold">
+          {/* <h1 className="xl:hidden text-2xl font-semibold">
             ndi<span className="text-accent">.</span>
-          </h1>
+          </h1> */}
         </Link>
 
         {/* Desktop Navigation */}
