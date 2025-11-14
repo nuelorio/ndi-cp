@@ -14,7 +14,13 @@ const Home = () => {
             <span>Tech Solutions Company</span>
             <h1 className="h1 mb-6">
               Hello We're <br />
-              <span className="text-accent">simplecode</span>
+              <span className="hidden xl:block">
+                nusantara digital{" "}
+                <span className="text-accent">integrator</span>
+              </span>
+              <span className="xl:hidden">
+                ndi<span className="text-accent">.</span>
+              </span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               We are a technology partner specializing in full-stack development
